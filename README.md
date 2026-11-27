@@ -20,7 +20,9 @@ Open `http://localhost:8080/`.
 
 ## Deployment
 
-The repository is compatible with GitHub Pages and retains the existing `CNAME` file. No build step or external JavaScript dependency is required.
+GitHub Pages publishes `main` (root folder) to `ec-hereditas.com`; the `CNAME` file holds the domain and HTTPS is enforced. No build step or external JavaScript dependency is required. `_config.yml` keeps this README off the public site.
+
+The application preview runs separately at `preview.ec-hereditas.com` (repository `ec-hereditas/app`). Internal redesign notes are in `ec-hereditas/workspace` under `docs/website/`.
 
 ## Before publication
 
